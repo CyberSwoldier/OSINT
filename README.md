@@ -1,4 +1,5 @@
 Professional OSINT & Threat Intelligence Framework
+
 A comprehensive open-source intelligence (OSINT) gathering framework designed for security researchers, threat intelligence analysts, incident responders, and investigative journalists. This tool provides law enforcement-grade intelligence capabilities using exclusively public data sources.
 
 Overview
