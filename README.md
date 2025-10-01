@@ -3,11 +3,13 @@ Professional OSINT & Threat Intelligence Framework
 A comprehensive open-source intelligence (OSINT) gathering framework designed for security researchers, threat intelligence analysts, incident responders, and investigative journalists. This tool provides law enforcement-grade intelligence capabilities using exclusively public data sources.
 
 Overview
+
 The Professional Intelligence Framework is an advanced OSINT toolkit that correlates information from dozens of public sources to provide comprehensive intelligence reports on digital entities. Built for legitimate security research and investigations, it automates the tedious process of gathering and correlating publicly available information.
 Key Capabilities
 Email Intelligence:
 
 Multi-source breach database checking (Have I Been Pwned, DeHashed, LeakCheck)
+
 Dark web and paste site monitoring for credential exposure
 Email deliverability and validation analysis
 Malicious contact detection and reputation scoring
@@ -81,6 +83,7 @@ Account takeover prevention
 Reputation risk assessment
 
 Legal & Ethical Framework
+
 Important: This tool uses ONLY publicly available information from:
 
 Public breach databases
@@ -98,7 +101,7 @@ Perform unauthorized network intrusion
 Deploy malware or exploits
 Violate any computer fraud statutes
 
-Legal Compliance:
+Legal Compliance | 
 Users must ensure compliance with applicable laws including:
 
 GDPR (EU General Data Protection Regulation)
