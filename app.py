@@ -409,12 +409,6 @@ def run_investigation(target: str) -> dict:
 
     module = module_map[ttype](config, graph)
 
-    # Redirect rich console output to /dev/null during Streamlit run
-    import io
-    from rich.console import Console
-    import osint_engine
-    osint_engine.console = Console(file=io.StringIO(), highlight=False)
-
     result = module.investigate(target)
     return {"target": target, "type": ttype, "data": result,
             "timestamp": datetime.utcnow().strftime("%H:%M:%S")}
